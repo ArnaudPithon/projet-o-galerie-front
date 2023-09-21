@@ -12,7 +12,7 @@ function LikeButton() {
     }
 
   return <button onClick={onOff}>
-    {isLiked ? <span><BsHeartFill className={`${isLiked && "animate-ping"} inline text-2xl`}/> Liké</span> : 
+    {isLiked ? <span><BsHeartFill className={`${isLiked && "animate-ping"} inline text-3xl`}/> Liké</span> : 
                 <span><BsHeart className="inline text-2xl"/> Liker</span>}
     </button>;
 }

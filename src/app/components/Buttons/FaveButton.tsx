@@ -12,7 +12,7 @@ function FaveButton() {
     }
 
   return <button onClick={onOff}>
-    {isFaves ? <span><RiHeartAddFill className={`${isFaves && "animate-ping"} inline text-3xl`}/> Dans mes favoris</span> : 
+    {isFaves ? <span><RiHeartAddFill className={`${isFaves && "animate-ping"} inline text-4xl`}/> Dans mes favoris</span> : 
                 <span><RiHeartAddLine className="inline text-3xl"/> Ajouter aux favoris</span>}
     </button>;
 }
